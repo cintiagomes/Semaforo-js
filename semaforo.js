@@ -10,13 +10,13 @@ function leds(corVermelho, corAmarelo, corVerde) {
 }
 
 function ledVerde() {
-    document.getElementById("semaforo").src = "img/vermelho.png"
+    document.getElementById("semaforo").src = "img/verde.png"
 }
 function ledAmarelo() {
     document.getElementById("semaforo").src = "img/amarelo.png"
 }
 function ledVermelho() {
-    document.getElementById("semaforo").src = "img/verde.png"
+    document.getElementById("semaforo").src = "img/vermelho.png"
 }
 
 function ledAutomatico(){
